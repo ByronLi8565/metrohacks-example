@@ -18,6 +18,7 @@ const request = async(data, url) => {
     })
 }
 
+
 var data = {
   key: 'value1',
   int_key: 1,
@@ -28,6 +29,19 @@ var data = {
     key: 'value',
   },
 }
+
+// JSON
+
+// JSON = {
+//   key: "value1",
+//   "object": {
+//     "int_key": 1,
+//   }
+// }
+
+// HTTP Requests
+// GET HTML
+// POST DATA | JSON, RESPONE | JSON
 
 var response = await request(data, 'https://asrx.ngrok.io/data')
 console.log(response)
