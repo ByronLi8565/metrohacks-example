@@ -3,6 +3,7 @@ var b = 5
 
 console.log(a)
 console.log(b)
+console.log(c)
 
 function sum(a, b) {
   return a + b
